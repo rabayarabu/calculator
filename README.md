@@ -87,6 +87,13 @@ First, make sure you have <a href="https://nodejs.org/en">Node.js</a> installed 
 ```sh
   https://nodejs.org/en
 ```
+### Usage
+
+To run the project, 
+
+```sh
+  npm run start
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
