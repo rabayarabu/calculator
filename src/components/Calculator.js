@@ -39,7 +39,7 @@ function CalculatorDesign() {
         <Calculator onClick={eventhandler} name="7" className="nosign" />
         <Calculator onClick={eventhandler} name="8" className="nosign" />
         <Calculator onClick={eventhandler} name="9" className="nosign" />
-        <Calculator onClick={eventhandler} name="*" className="side" />
+        <Calculator onClick={eventhandler} name="x" className="side" />
         <Calculator onClick={eventhandler} name="4" className="nosign" />
         <Calculator onClick={eventhandler} name="5" className="nosign" />
         <Calculator onClick={eventhandler} name="6" className="nosign" />
