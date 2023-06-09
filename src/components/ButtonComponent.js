@@ -1,7 +1,7 @@
 function Calculator(property) {
-  const { name, className } = property;
+  const { name, className, onClick } = property;
   return (
-    <button className={className} type="submit">{name}</button>
+    <button onClick={(e) => onClick(e, name)} className={className} type="submit">{name}</button>
   );
 }
 

@@ -48,4 +48,5 @@ button:hover {
   line-height: 3;
   padding: 5px;
   width: 100%;
+  min-height: 50px;
 }
