@@ -115,6 +115,8 @@ p {
 
 .App {
   width: 100%;
+  border: 2px solid aqua;
+  margin: 10px auto;
 }
 
 .paragraph {
