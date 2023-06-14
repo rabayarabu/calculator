@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style-type: none;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 .calculator {
   width: 800px;
   color: aqua;
-  margin: 10px auto;
+  margin: 100px auto;
 }
 
 .keyboard {
@@ -59,10 +60,62 @@ button:hover {
   width: 500px;
 }
 
-.app {
+.menus {
   display: flex;
+  gap: 15px;
+  color: gray;
+}
+
+.active {
+  color: #ffff;
+}
+
+.navbar {
+  background-color: rgb(218, 180, 109);
+  height: 70px;
+  padding: 20px;
+  min-width: 1100px;
+}
+
+li {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+a {
+  color: aqua;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.aouthor {
+  font-style: italic;
+}
+
+.container2 {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  gap: 2%;
+  height: 100%;
+  padding: 10px;
+}
+
+.logotitle {
+  color: #fff;
+  margin-right: 50rem;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 200px;
+}
+
+.App {
   width: 100%;
 }

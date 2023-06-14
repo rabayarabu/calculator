@@ -44,7 +44,7 @@ function Quotes() {
   return (
     <div className="qoute-cont">
       <p>{quoteData && quoteData.quote}</p>
-      <h2>{quoteData.author}</h2>
+      <h2 className="aouthor">{quoteData.author}</h2>
     </div>
   );
 }
