@@ -22,4 +22,8 @@ describe('Operate function test', () => {
     const result = operate('60', '0', '÷');
     expect(result).toEqual("Can't divide by 0.");
   });
+  test('Performs modulus', () => {
+    const result = operate('4', '2', '%');
+    expect(result).toEqual('0');
+  });
 });
